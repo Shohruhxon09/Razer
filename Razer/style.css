@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 35px;
+}
+.search{
+    width: 20px;
+    height: 20px;
+}
+.logo{
+    padding-bottom: 15px;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+}
+nav{
+    height: 60px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    background-color: #000;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+nav h1{
+     font-family: Arial,  'helvatica neue' sans-serif;
+    color: gray;
+}
+nav h1:hover{
+    color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 74px;
+    font: size 16px;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid rgb(0, 180, 0);
+}
+.name10{
+    padding-right: 80px;
+}
+.name9{
+    padding-left: 80px;
+}
+.header h4{
+    padding-top: 25px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    height: 34px;
+    color: #fff;
+}
+.header h4:hover{
+    color: rgb(5, 176, 5);
+     font-family: Arial,  'helvatica neue' sans-serif;
+}
+.sale h4{
+    text-align: center;
+    width: 100%;
+    height: 44px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    color: #fff;
+}
+.sale{
+    padding-top: 13px;
+    height: 44px;
+    background-color: #555;
+}
+.rezer70{
+    color: #999;
+     font-family: Arial,  'helvatica neue' sans-serif;
+}
+.l-d{
+    color: #44d62c;
+    font-size: 36px;
+    margin: auto;
+    text-align: center;
+    margin: 0px 0px 8px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    padding: 0px 0px 5px;
+    width: 920px;
+    height: 41px;
+    text-align: center;
+    margin: auto;
+}
+.rezer70{
+    display: flex;
+    justify-content: center;
+    height: 84px;
+    font-size: 18px;
+    width: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 220px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+}
+.Id{
+     font-family: Arial,  'helvatica neue' sans-serif;
+    background-color: #111;
+    padding: 48px 0px;
+    height: 229px;
+    width: 100%;
+}
+.card h3{
+    color: #555;
+    width: 381.34px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    text-align: center;
+    height: 47.39px;
+    padding: 10px 10px 0px;
+    font-size: 14px;
+}
+.conteiner a{
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+    width: 381.34px;
+    text-align: center;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.cont a{
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+    width: 122.94px;
+    text-align: center;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0px 16px;
+    justify-content: center;
+    margin-left: 620px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+.cont a:hover{
+    text-decoration: underline;
+}
+.conteiner{
+    background-color: #1a1a1a; 
+    display: flex;
+     font-family: Arial,  'helvatica neue' sans-serif;
+
+    justify-content: space-evenly;
+    width: 100%;
+    height: 551.33px;
+    padding: 25px 0px;
+}
+.card h1{
+    color: #fff;
+    width: 381.34px;
+    height: 31.59px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    text-align: center;
+    padding: 10px 10px 0px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.card{
+    background-color: #000;
+    width: 381.34px;
+    height: 496.98px;
+        border-bottom: 2px solid #44d62c;
+     font-family: Arial,  'helvatica neue' sans-serif;
+        border-radius: 5px;
+}
+.card img{
+    width: 381.34px;
+    border-radius: 5px;
+}
+.s2 h1{
+    width: 920px;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 5px;
+    font-size: 36px;
+    height: 41px;
+    padding-right: 200px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    text-align: center;
+    margin-left: 220px;
+    color: #44d62c;
+    padding-left: 220px;
+}
+.s2 H3{
+    width: 920px;
+    text-align: center;
+    height: 56px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    font-size: 18px;
+    margin-left: 200px;
+    color: #999;
+}
+.s2{
+    padding: 48px 8px;
+    background-color: #111;
+    font-size: 16px;
+}
+.cont h3{
+    width: 750px;
+    height: 54px;
+    font-size: 18px;
+    text-align: center;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    padding-left: 200px;
+    margin: 0px 225px;
+    padding: 7px 16px 20px;
+    color: #999;
+    margin-left: 290px;
+}
+.cont h1{
+    width: 1200px;
+    height: 95px;
+    text-align: center;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 28px;
+    padding: 65px 0px 0px;
+}
+.cont{
+    height: 700px;
+    font-size: 18px;
+    background-image: url(/Razer/bgi\ mustaqil\ index.jpg);
+    background-size: 100%;
+}
+.s3{
+    width: 100%;
+    font-size: 16px;
+    background-color: #111;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    height: 229px;
+}
+.contein{
+    width: 980px;
+    height: 133px;
+    margin: 0px 176.5px;
+    padding: 0px 30px; 
+    color: #fff;
+    font-size: 16px;
+    font-family: roboto, "helvatica neue" Arial, Helvetica, sans-serif;
+}
+.contein h1{
+    width: 920px;
+ font-family: Arial,  'helvatica neue' sans-serif;
+    height: 41px;
+    color: #44d62c;
+    font-size: 36px;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 5px;
+    padding-top: 40px;
+    text-align: center;
+}
+.contein h3{
+    width: 920px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    font-size: 18px;
+    padding-top: 40px;
+    color: #999;   
+    text-align: center;
+}
+.s4{
+    width: 100%;
+    height: 229px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    background-color: #111;
+    padding: 48px 8px;
+}
+.s4 .conteiner{
+    width: 980px;
+    height: 133px;
+    background-color: #111;
+    font-size: 16px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    margin: 0px 176.5px;
+    padding: 0px 30px;
+    text-align: center;
+    display: block;
+}
+.s4 .conteiner h1{
+    width: 920px;
+    height: 41px;
+    color: #44d62c;
+    font-size: 36px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 5px;
+    text-align: center;
+}
+.s4 .conteiner h3{
+    color: #999;
+    font-family: Arial,  'helvatica neue' sans-serif;
+}
+.conteiner1{
+    width: 100%;
+    height: 483.59px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    background-color: #252525;
+    padding: 0px 0px 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner1 .card{
+    width: 282px;
+    height: 450px;
+}
+.conteiner1 .card img{
+    width: 282px;
+}
+.conteiner1 .card h1{
+    width: 282px;
+    height: 31.59px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    padding: 10px 10px 0px;
+}
+.conteiner1 .card h3{
+    width: 282px;
+    height: 94px;
+    color: #888;
+    font-size: 14px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    padding: 10px 10px 0px; 
+}
+.conteiner1 a{
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+    width: 381.34px;
+    text-align: center;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    padding-right: 100px;
+}
+.conteiner1 a:hover{
+    text-decoration: underline;
+}
+.conteiner2 .card h3{
+    color: #555;
+    width: 381.34px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    text-align: center;
+    height: 47.39px;
+    padding: 10px 10px 0px;
+    font-size: 14px;
+}
+.conteiner2 a{
+    color: rgb(0, 180, 0);
+    text-decoration: none;
+    width: 381.34px;
+    text-align: center;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.conteiner2{
+    background-color: #252525; 
+    display: flex;
+     font-family: Arial,  'helvatica neue' sans-serif;
+
+    justify-content: space-evenly;
+    width: 100%;
+    height: 551.33px;
+    padding: 25px 0px;
+}
+.conteiner2 .card h1{
+    color: #fff;
+    width: 381.34px;
+    height: 31.59px;
+     font-family: Arial,  'helvatica neue' sans-serif;
+    text-align: center;
+    padding: 10px 10px 0px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.conteiner2 .card{
+    background-color: #000;
+    width: 381.34px;
+    height: 496.98px;
+        border-bottom: 2px solid #44d62c;
+     font-family: Arial,  'helvatica neue' sans-serif;
+        border-radius: 5px;
+}
+.conteiner2 .card img{
+    width: 381.34px;
+    border-radius: 5px;
+}
+.conteiner-grid{
+    height: 650px;
+    font-size: 18px;
+    background-image: url(/Razer/photo_2023-03-29_17-15-19.jpg);
+    background-size: 100%;
+}
+.pt-at{
+    text-align: center;
+    color: #44c62d;
+    padding-top: 230px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+}
+h3 div{
+    height: 16px;
+    text-align: center;
+}
+.conteiner-grid h3{ 
+    padding-left: 400px;
+    margin-top: 20px;
+    color: #999;
+    font-family: Arial,  'helvatica neue' sans-serif;
+}
+.conteiner-grid img{
+    padding-left: 523px;
+    margin-top: 20px;
+}
+.conteiner-grid h4{
+    padding-left: 400px;
+    width: 1000px;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    color: #999;
+}
+.imgcont{
+    background-color: #111;
+}
+.imgcont img{
+    width: 60px;
+}
+.conteiner0{
+    width: 1200px;
+    height: 371px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 74.5px;
+    padding: 25px 30px 25px 0px;
+    font-size: 12px;
+    font-family: Arial,  'helvatica neue' sans-serif;
+    background-color: #111;
+}
+.futr{
+    width: 100%;
+    background-color: #111;     
+    height: 371px;
+}
+.futr .div{
+    display: flex;
+    background-color: #111;
+}
+.wall{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.copy{
+    padding-right: 200px;
+    padding-left: 100px;
+}
+.US{
+    padding-left: 200px;
+}
+.futr h5{
+
+    color: #999;
+    font-family: Arial,  'helvatica neue' sans-serif;
+}
+.div5{
+    color: #44d62c;
+    font-family: Arial,  'helvatica neue' sans-serif;
+}
+.conteiner0 h5{
+    padding-top: 20px;
+    
+}
+.futr h5:hover{
+    color: #fff;
+}
